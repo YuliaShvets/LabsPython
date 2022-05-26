@@ -3,3 +3,6 @@ class HomeAppliances:
         self.producer = producer
         self.name = name
         self.price = price_in_uah
+
+        def __str__(self):
+            return f"Producer : {self.producer}, Name : {self.name}, Price in uah : {self.price_in_uah}"
