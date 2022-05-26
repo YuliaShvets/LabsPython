@@ -6,6 +6,6 @@ class Television(HomeAppliances):
         super().__init__(producer, name, price_in_uah)
         self.size_in_inches = size_in_inches
 
-        def __str__(self):
-            return super(HomeAppliances, self).__str__() \
-                   + f"Size in inches : {self.size_in_inches} "
+    def __str__(self):
+        return super(HomeAppliances, self).__str__() \
+               + f"Size in inches : {self.size_in_inches} "

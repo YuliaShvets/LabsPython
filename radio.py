@@ -6,6 +6,6 @@ class Radio(HomeAppliances):
         super().__init__(producer, name, price_in_uah)
         self.interface = interface
 
-        def __str__(self):
-            return super(HomeAppliances, self).__str__() \
-                   + f"Interface : {self.interface} "
+    def __str__(self):
+        return super(HomeAppliances, self).__str__() \
+               + f"Interface : {self.interface} "

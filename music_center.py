@@ -6,6 +6,6 @@ class MusicCenter(HomeAppliances):
         super().__init__(producer, name, price_in_uah)
         self.connect = connect
 
-        def __str__(self):
-            return super(HomeAppliances, self).__str__() \
-                   + f"Connect : {self.connect} "
+    def __str__(self):
+        return super(HomeAppliances, self).__str__() \
+               + f"Connect : {self.connect} "
