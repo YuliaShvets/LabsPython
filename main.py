@@ -12,8 +12,11 @@ def main():
     tape_recorder = TapeRecorder("Pioneer", "MVH-09UB", 2000, 2)
     music_center = MusicCenter("Phillips", "TAM3205", 3000, "AUX")
 
-    print(tape_recorder)
+    print(vacuum_cleaner)
+    print(television)
     print(radio)
+    print(tape_recorder)
+    print(music_center)
 
 
 if __name__ == '__main__':

@@ -7,5 +7,5 @@ class TapeRecorder(HomeAppliances):
         self.number_of_channels = number_of_channels
 
     def __str__(self):
-        return super(HomeAppliances, self).__str__() \
-               + f"Number of channels : {self.number_of_channels} "
+        return f"Tape recorder - " + super(TapeRecorder, self).__str__() \
+               + f", Number of channels : {self.number_of_channels} "

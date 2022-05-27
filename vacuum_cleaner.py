@@ -7,5 +7,5 @@ class VacuumCleaner(HomeAppliances):
         self.power_in_watts = power_in_watts
 
     def __str__(self):
-        return super(HomeAppliances, self).__str__() \
-               + f"Power in watts : {self.power_in_watts} "
+        return f"Vacuum cleaner - " + super(VacuumCleaner, self).__str__() \
+               + f", Power in watts : {self.power_in_watts} "

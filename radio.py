@@ -7,5 +7,5 @@ class Radio(HomeAppliances):
         self.interface = interface
 
     def __str__(self):
-        return super(HomeAppliances, self).__str__() \
-               + f"Interface : {self.interface} "
+        return f"Radio - " + super(Radio, self).__str__() \
+               + f", Interface : {self.interface} "

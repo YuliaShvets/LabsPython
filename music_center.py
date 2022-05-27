@@ -7,5 +7,5 @@ class MusicCenter(HomeAppliances):
         self.connect = connect
 
     def __str__(self):
-        return super(HomeAppliances, self).__str__() \
-               + f"Connect : {self.connect} "
+        return f"Music center - " + super(MusicCenter, self).__str__() \
+               + f", Connect : {self.connect} "
