@@ -1,1 +1,3 @@
-Repo for my Python labs in the first year(second term) of my studies at Lviv Politechnic.
+Task for the first Python lab :
+- Implement heirarchy of classes.
+- Derivated class must contain additional fields.
